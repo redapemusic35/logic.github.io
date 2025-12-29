@@ -1,4 +1,4 @@
-# Quarto template for university courses
+# README for Philosophy of Logic Course Template
 
 <figure>
     <img src="./figures/icons/course_favicon.png" alt="Image Created with DALL·E. Prompt: 'octopus-like alien futuristic teacher, abstract award-winning material design favicon blue flat colours'"  role="presentation" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;">
@@ -10,14 +10,21 @@
 
 </figure>
 
-A template for developing university courses using Quarto.
+A Quarto-based course website for Philosophy of Logic, with support for multi-year iterations (e.g., 2025 and 2026).
 
 ::: {.callout-warning}
 ## 🚧 Coming Soon
 
 Note added: 04/08/2025
 
-This template will be updated in the coming weeks, based on things I've implemented downstream ([DS105 (internal 2025/2026)](https://lse-dsi.github.io/DS105/) and [ME204 (2025)](https://lse-dsi.github.io/ME204/) most recently). Planned enhancements include:
+### Course Overview
+
+Title: Philosophy of Logic\\
+Years Supported: 2025, 2026 (with dedicated folders for materials)\\
+
+This site hosts lectures, exercises, readings, and resources for university-level logic in philosophy. Includes daily exercises, bibliography, and custom helpers for course delivery.
+
+This template will be updated in the coming weeks, based on things I've implemented downstream ([DS105 (internal 2025/2026)](https://course.phil.logic.github.io/DS105/) and [ME204 (2025)](https://course.phil.logic.github.io/ME204/) most recently). Planned enhancements include:
 
 - **Multi-year course management** with easy-to-use archiving of older iterations
 - **Modular styling system** for easier customisation and maintenance
@@ -25,10 +32,32 @@ This template will be updated in the coming weeks, based on things I've implemen
 - **Professional branding system** with consistent typography and colour schemes
 - **Improved search functionality** for better content discovery
 
-These features are being developed and tested in live courses before being added to this template. 
+These features are being developed and tested in live courses before being added to this template.
 
 If you have any suggestions, please let me know!
 :::
+
+## Site Structure
+
+* Year-specific folders (e.g., 2025-logic, 2026_logic)
+* Shared resources: figures, CSS styling, references, helpers
+* Integration for exercises (e.g., docx files) and bibliography management
+
+## Built with Quarto
+
+* Customized from a general university course template, enabling multi-year archiving, modular content, and automated publishing via GitHub Actions.
+
+### New to Quarto?
+
+Get started here:
+
+* [Quarto Basics](https://quarto.org/docs/get-started/?referrer=grok.com)
+* [Building Websites](https://quarto.org/docs/websites/?referrer=grok.com)
+* [Creating Slides with Revealjs](https://quarto.org/docs/presentations/revealjs/?referrer=grok.com)
+* [Managing Projects](https://quarto.org/docs/projects/quarto-projects.html?referrer=grok.com)
+
+Ideal for structured logic courses with evolving annual content.
+Rendered site: https://redapemusic35.github.io/course.phil.logic.github.io/
 
 **Real Examples:**
 
@@ -71,7 +100,7 @@ There you go. You might be wondering how to put all of this to work. That is pre
 
 Here is a guide of the initial files you might want to modify to remove the sections that refer to the template, leaving only what is relevant to developing/updating the material of your course.
 
-6. Start by editing the `README.md` file carefully. 
+6. Start by editing the `README.md` file carefully.
     - Change the title
     - Remove some of the sections
     - Edit the Dev Setup instructions to cater to your needs.
@@ -110,7 +139,7 @@ On top of the setup below, I also recommend you use [VSCode](https://code.visual
     conda create -y -n=venv-my-course python=3.10.8
     ```
 
-    Never worked with conda environments before? Take some time to read [their documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
+    Never worked with conda environments before? Take some time to read [their documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
     💡 **Pro-tip**: replace `my-course` with your course code. Say, for example, `venv-ds105`.
 
@@ -118,7 +147,7 @@ On top of the setup below, I also recommend you use [VSCode](https://code.visual
 
     ```bash
     # the exact `activate` command will vary depending on your OS
-    conda activate venv-my-course 
+    conda activate venv-my-course
     ```
 
 💡 Remember to activate this particular `conda` environment whenever you reopen VSCode/the terminal.
