@@ -1,13 +1,13 @@
 project:
   type: "website"
-  title: "Introduction to Logic, Spring 2026"
+  title: "Logic, Spring 2026"
   output-dir: _output
   render:
     - "./index.qmd"
     - "/2026_logic/*"
 
 website:
-  title: "Logic, Fall 2025"
+  title: "Logic, Spring 2026"
   page-navigation: true
   reader-mode: true
   open-graph: true

@@ -6,40 +6,28 @@ format:
     include-after-body: helpers/remove-title.html
 ---
 
-# 📑 Introduction to Logic
-
 <a href="./2026_logic/index.qmd">
-    <button class="button-61">Logic, Spring 2026</button>
+    <button class="button-61">Click Here for Logic, Spring 2026</button>
 </a>
 
-Previously, this course used John Nolt's *Logics* as its text book. While I still believe that the heavy emphasis on formal logic is important, the book itself did not provide enough informal support for the students to grasp the concepts in an intuitive manner. I discovered Peter @smit21's [*Logic Matters*](https://www.logicmatters.net/) towards the end of the semester. I recommened it to students as a supplementary reading and was pleased with the feedback and the improvement in their understanding. I am now relying on Smith's introductory text as the main text for this course, although I will contrast it with Nolt's more formal approach at various points.
+Previously, this course used John Nolt's *Logics* as its text book. While I still believe that the heavy emphasis on formal logic is important, the book itself did not provide enough informal support for the students to grasp the concepts in an intuitive manner. I discovered Peter @smit21's [*Logic Matters*](https://www.logicmatters.net/) towards the end of the semester. I recommeneded it to students as a supplementary reading and was pleased with the feedback and the improvement in their understanding. I am now relying on Smith's introductory text as the main text for this course, although I will contrast it with Nolt's more formal approach at various points.
 
-This course will begins with an informal system of logic and proceeds to classical propositional logic syntax, semantics and inference. It will then cover predicate logic semantics and inference. It begins with informal systems of logic and slowly proceeds to formal systems of logic. We will then look at natural deduction proofs for propositional logic before looking at formalization rules and general propositions, and finishing out the term with quantification logic.
+### 📑 Course Brief
+
+**Focus:** the focus of this course is informal and formal logics
+
+**How:** hands-on learning
+
+### 🎯 Learning Objectives
+
+* Informal Logic
+* Classical Propositional Logic syntax and semantics
+* Natural Deduction Proofs for Propositional Logic
+* Formalization Rules and General Propositions
+* Predicate (Quantification Rules) Logic Semantics and Inference
+
+This course will begins by looking at informal systems of logic. It then proceeds to classical propositional logic syntax, semantics and inference, then covering predicate logic semantics and inference. What is unique about this approach is that we begin with informal systems of logic and slowly proceed to formal systems of logic. We will then look at natural deduction proofs for propositional logic before looking at formalization rules and general propositions, and finishing out the term with quantification logic.
 
 In the image below, Sherlock Holmes is wearing a top hat. This image is from a favorite paper of mine where David @lewi78a uses logical reasoning to address the question of whether or not it is false to say 'Holmes wears a top hat' or that 'Holmes lived in Baker Street'.
 
 !['Holmes wears a top hat'](./2025-logic/holmes.jpg)
-
-# 📑 Course Brief
-
-**Focus:** the focus of this course is to learn stuff
-
-**How:** hands-on learning
-
-# 🎯 Learning Objectives
-
-- You will discover how to do X
-- Distinguish X from **X**
-- Practice how to put things _in italic_
-- Discover how to highlight `code` inline
-- Proceed to learn stuff
-
-
------------------
-
-**Select Academic Year/Term:**
-
-<a href="2026_logic/index.qmd">
-    <button class="button-61">2025/26</button>
-</a>
->>>>>>> 5d9664667da4a3322bce7ed6b384c015dc1999c1
