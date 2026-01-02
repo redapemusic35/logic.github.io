@@ -1,8 +1,14 @@
 ---
-title: "🗓️ Week 02 - Argument Forms, Formalization, Formation Rules"
+title: "🗓️ Week 06 - Argument Forms, Formalization, Formation Rules"
 ---
 
-In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.
+||||
+|---|---|---|
+| 21 | PL proofs: disjunction | 191 |
+| 22 | PL proofs: conditionals | 203 |
+| 23 | PL proofs: theorems | 211 |
+| 24 | PL proofs: metatheory | 216 |
+| | Interlude: Formalizing general propositions | 228 |
 
 ## 👨‍🏫 Lecture Slides
 

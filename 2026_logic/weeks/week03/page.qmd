@@ -1,8 +1,13 @@
 ---
-title: "🗓️ Week 02 - Argument Forms, Formalization, Formation Rules"
+title: "🗓️ Week 03 - Argument Forms, Formalization, Formation Rules"
 ---
 
-In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.
+||||
+|---|---|---|
+| 9 |PL syntax | 72 |
+| 10 | PL semantics | 81 |
+| 11 | ‘P’s, ‘Q’s, ‘α’s, ‘β’s – and form again | 94 |
+| 12 | Truth functions | 104 |
 
 ## 👨‍🏫 Lecture Slides
 

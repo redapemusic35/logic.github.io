@@ -4,7 +4,7 @@ project:
   output-dir: _output
   render:
     - "./index.qmd"
-    - "./2026_logic/*"
+    - "/2026_logic/*"
 
 website:
   title: "Logic, Fall 2025"
@@ -95,12 +95,75 @@ website:
                text: 💻 Notes and Summary
             #  - href: 2023/weeks/week01/appendix.qmd
             #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week09-QLs/page.qmd
+           text: Week 09 Quantified Logic
+           contents:
+             - href: 2026_logic/weeks/week10-q-validity/page.qmd
+               text: 👨‍🏫 Lecture Material/Propositional Logic Semantics
+             - href: 2026_logic/weeks/week10-q-validity/summary.qmd
+               text: 💻 Notes and Summary
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week10-q-validity/page.qmd
+           text: Week 10
+           contents:
+             - href: 2026_logic/weeks/week10-q-validity/page.qmd
+               text: 👨‍🏫 Lecture Material
+            #  - href: 2023/weeks/week01/lab.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week11-ql-language/page.qmd
+           text: Week 11
+           contents:
+             - href: 2026_logic/weeks/week11-ql-language/page.qmd
+               text: 👨‍🏫 Lecture Material
+            #  - href: 2023/weeks/week01/lab.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week12-functions/page.qmd
+           text: Week 12
+           contents:
+             - href: 2026_logic/weeks/week12-functions/page.qmd
+               text: 👨‍🏫 Lecture Material
+            #  - href: 2026_aesthetics/weeks/week06/summary.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week13/page.qmd
+           text: Week 13
+           contents:
+             - href: 2026_logic/weeks/week13/page.qmd
+               text: 👨‍🏫 Lecture Material/Propositional Logic Semantics
+             - href: 2026_logic/weeks/week04/summary.qmd
+               text: 💻 Study Guide
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week14/page.qmd
+           text: Week 14
+           contents:
+             - href: 2026_logic/weeks/week14/page.qmd
+               text: 👨‍🏫 Lecture Material/Propositional Logic Semantics
+            #  - href: 2026_aesthetics/weeks/week06/summary.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
+         - href: 2026_logic/weeks/week15/page.qmd
+           text: Week 15
+           contents:
+             - href: 2026_logic/weeks/week15/page.qmd
+               text: 👨‍🏫 Lecture Material/Propositional Logic Semantics
+            #  - href: 2026_aesthetics/weeks/week06/summary.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
          - href: 2026_logic/weeks/week16_final-review/page.qmd
-           text: Final Review
+           text: Week 06
            contents:
              - href: 2026_logic/weeks/week16_final-review/page.qmd
                text: 👨‍🏫 Lecture Material/Propositional Logic Semantics
-             - href: 2026_logic/weeks/week16_final-review/summary.qmd
+             - href: 2026_logic/weeks/week06/summary.qmd
                text: 💻 Notes and Summary
             #  - href: 2023/weeks/week01/appendix.qmd
             #    text: 🔖 Appendix
@@ -112,7 +175,7 @@ website:
     background: light
     left: "Copyright 2025, Montaque Reynolds"
 
-bibliography: ./Un-Duplicates.bib
+bibliography: ./../My-Library.bib
 csl: references/chicago-author-date.csl
 
 format:

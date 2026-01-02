@@ -1,13 +1,12 @@
 ---
-title: "🗓️ Week 07 - QL, Predicate Lanaguages"
+title: "🗓️ Week 11 - QL-Language"
 ---
 
 ||||
 |---|---|---|
-| 25 | Names and predicates | 230 |
-| 26 | Quantifiers in ordinary language |240 |
-| 27 | Quantifier-variable notation | 249 |
-| 28 | QL languages | 258 |
+| 39 | QL=Languages | 367 |
+| 40 | Definite Descriptions | 375 |
+| 41 | QL=Proofs | 382 |
 
 ## 👨‍🏫 Lecture Slides
 

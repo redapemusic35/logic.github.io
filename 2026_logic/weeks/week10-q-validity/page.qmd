@@ -1,13 +1,13 @@
 ---
-title: "🗓️ Week 07 - QL, Predicate Lanaguages"
+title: "🗓️ Week 10 - Q-Validity"
 ---
 
 ||||
 |---|---|---|
-| 25 | Names and predicates | 230 |
-| 26 | Quantifiers in ordinary language |240 |
-| 27 | Quantifier-variable notation | 249 |
-| 28 | QL languages | 258 |
+| 36 | Q-Validity | 346 |
+| 37 | QL Proofs, metatheory | 354 |
+| Interlude: Extending QL | 359 |
+| 38 | Identity | 361 |
 
 ## 👨‍🏫 Lecture Slides
 

@@ -1,8 +1,13 @@
 ---
-title: "🗓️ Week 02 - Argument Forms, Formalization, Formation Rules"
+title: "🗓️ Week 04 - Entailment, Tautologies"
 ---
 
-In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course.
+||||
+|---|---|---|
+| 13 |Expressive adequacy | 113 |
+| 14 | Tautologies | 120 |
+| 15 | Tautological entailment | 127 |
+| 16 More about tautological entailment | 137 |
 
 ## 👨‍🏫 Lecture Slides
 
